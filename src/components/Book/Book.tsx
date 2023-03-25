@@ -22,12 +22,7 @@ export const Book: FC<IBookProps> = ({ book }) => {
       className={styles.container}
       onClick={() => handleClickBook(book.id)}>
       {book.images ? (
-        <img
-          src={book.images}
-          alt=""
-          className={styles.image}
-          width="100%"
-        />
+        <img src={book.images} alt="" className={styles.image} />
       ) : (
         <div className={styles["image-null"]}>
           <CiImageOff size={60} color="darkGrey" />
