@@ -10,10 +10,9 @@
 }
 
 .image {
-  padding: 0 50px;
+  height: 250px;
   margin-bottom: 10px;
-  width: 100%;
-  height: auto;
+  object-fit: contain;
 }
 
 .image-null {
