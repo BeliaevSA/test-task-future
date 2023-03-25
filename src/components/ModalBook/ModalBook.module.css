@@ -38,7 +38,7 @@
   bottom: 5%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: rgb(243, 238, 238);
+  background-color: var(--bg-book);
   width: 35%;
   height: 90%;
   display: flex;
@@ -84,7 +84,7 @@
 }
 
 .authors {
-  color: rgb(136, 136, 136);
+  color: var(--text-color);
   font-size: 0.9rem;
   margin-bottom: 20px;
   text-decoration: underline;
@@ -115,10 +115,10 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: rgb(243, 238, 238);
+    background-color: var(--bg-book);
     background: linear-gradient(
       to bottom,
-      rgb(243, 238, 238) 20%,
+      var(--bg-book) 20%,
       white 20%
     );
     border-radius: 0;
